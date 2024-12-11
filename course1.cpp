@@ -129,6 +129,7 @@ void file_out(double** A[], int sizes[], string names[], int elements) {
 		}
 		out << "Количество элементов матрицы С, превосходящих среднее арифметическое соответствующих столбцов матриц А и В:" << elements << endl;
 	}
+	out.close();
 }
 
 int main()
